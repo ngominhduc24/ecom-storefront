@@ -162,7 +162,7 @@ test.describe("Checkout flow tests", async () => {
         await checkoutPage.shippingPostalCodeInput.fill("80011")
         await checkoutPage.shippingCityInput.fill("Donver")
         await checkoutPage.shippingProvinceInput.fill("CO")
-        await checkoutPage.shippingCountrySelect.selectOption("Canada")
+        await checkoutPage.shippingCountrySelect.selectOption("Vietnam")
       })
 
       await test.step("Edit the shipping contact info", async () => {
@@ -178,7 +178,7 @@ test.describe("Checkout flow tests", async () => {
         await checkoutPage.billingPostalInput.fill("80110")
         await checkoutPage.billingCityInput.fill("Denvur")
         await checkoutPage.billingProvinceInput.fill("AB")
-        await checkoutPage.billingCountrySelect.selectOption("Canada")
+        await checkoutPage.billingCountrySelect.selectOption("Vietnam")
       })
       await checkoutPage.submitAddressButton.click()
     })

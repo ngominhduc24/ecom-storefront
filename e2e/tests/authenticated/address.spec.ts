@@ -128,7 +128,7 @@ test.describe("Addresses tests", () => {
       await addressesPage.editAddressModal.cityInput.fill("Broomfield")
       await addressesPage.editAddressModal.stateInput.fill("CO")
       await addressesPage.editAddressModal.countrySelect.selectOption({
-        label: "Canada",
+        label: "Vietnam",
       })
       await addressesPage.editAddressModal.phoneInput.fill("3032223333")
       await addressesPage.editAddressModal.saveButton.click()
